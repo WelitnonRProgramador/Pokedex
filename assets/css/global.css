@@ -1,0 +1,46 @@
+/*Todo o saite usa a Fonte Roboto se não achar a Sans-serif*/
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6F8fc;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+   
+}
+
+@media screen and (min-width: 992px) {
+    .content{
+        max-width: 992px;
+        margin: 1rem auto;
+        height: auto;
+        border-radius: 1rem;
+    }
+    
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button{
+    padding: .25rem .25rem;
+    margin: .25rem 0;
+    font-size: .900rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+}
